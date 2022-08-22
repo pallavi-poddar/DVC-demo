@@ -1,6 +1,6 @@
 import pandas
 
-data=pandas.read_csv(r"D:\AI\Mckinsey\breast-cancer-wisconsin.data.txt",header=None)
+data=pandas.read_csv("../../../datasets.cancer-data.txt",header=None)
 data.columns=['id','p1','p2','p3','p4','p5','p6','p7','p8','p9','Class']
 
 data.drop(['id'],axis=1,inplace=True)
@@ -21,4 +21,5 @@ alg.fit(xtr,ytr)
 
 
 #accuracy
-accuracy=alg.score(xts,y
+accuracy=alg.score(xts,yts)
+print(accuracy)
