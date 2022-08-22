@@ -1,0 +1,4 @@
+## verify versions
+pandas==1.1.3
+numpy==1.19.2
+sklearn
