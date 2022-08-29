@@ -12,7 +12,7 @@ ydata=data['Class']
 
 from sklearn.model_selection import train_test_split
 
-xtr,xts,ytr,yts=train_test_split(xdata,ydata,test_size=0.2)
+xtr,xts,ytr,yts=train_test_split(xdata,ydata,test_size=0.3)
 
 from sklearn.linear_model import LogisticRegression
 alg=LogisticRegression()
