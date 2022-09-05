@@ -1,0 +1,4 @@
+outs:
+- md5: 52b89051b9bd37a91a54e8570b963719
+  size: 19889
+  path: cancer-data.txt
