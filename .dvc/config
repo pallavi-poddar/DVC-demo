@@ -1,0 +1,4 @@
+[core]
+    remote = cancer-data
+['remote "cancer-data"']
+    url = s3://cancer-dataset
