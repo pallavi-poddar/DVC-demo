@@ -3,7 +3,7 @@ import pandas
 data=pandas.read_csv("../dataset/cancer-data.txt",header=None)
 data.columns=['id','p1','p2','p3','p4','p5','p6','p7','p8','p9','Class']
 print(data.head)
-
+print("after fetching old dataset")
 data.drop(['id'],axis=1,inplace=True)
 data.replace('?',5,inplace=True)
 
