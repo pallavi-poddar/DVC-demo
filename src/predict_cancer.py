@@ -24,5 +24,4 @@ alg.fit(xtr,ytr)
 #accuracy
 accuracy=alg.score(xts,yts)
 print(accuracy)
-print("this is after adding more data")
 
